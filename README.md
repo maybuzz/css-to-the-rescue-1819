@@ -1,64 +1,50 @@
-# CSS to the Rescue @cmda-minor-web 18-19
+# CSS to the rescue
 
-_This course is in English_
+![Restaurant menu](website.png)
 
-In this three week course you are going to create an innovative, pleasurable user experience by using CSS.
+## Table of contents
+1. [Introduction](#Introduction)
+2. [Install](#Install)
+3. [Assignment](#Assignment)
+4. [Concepts](#Concepts)
+5. [Iterations](#Iterations)
+6. [To-do](#To-do)
+7. [Resources](#Resources)
 
-## Learning goals
-- _You understand the broader scope of CSS: You can show that CSS can be used for more than just styling web pages._
-- _You understand the progressive enhancement parts of CSS: You can show that you can use the cascade, inheritance and specificity in your project_
-- _You understand the interactive parts of CSS: Is the UX fully enhanced within in given CSS scope?_
-- _You have been experimenting: Have the learning goals been stretched?_
+## Introduction
+For this assignment I chose to create a responsive restaurant menu, using several restrictions. I'm going to work with BEM syntax. [Click here](#Assignment) for more information about the assignment.
 
-[Rubric](https://docs.google.com/spreadsheets/d/1Xv48MSiACNmnM6nXpGGUb8mJDC459uSaxJszO_zLEp8/edit?usp=sharing)
-
-## Programm
-
-### Week 1 - 👁 C what you did there
-
-[See all the details of week 1 here](week1/).
-
-Goals of this week: 
-
-- Be inspired
-- Understand the cascade, inheritance and specificity
-- Get going!
-
-<!-- [Opdrachten](https://drive.google.com/open?id=1OVhWQNaCgSluYviTKKWcApkyPd23xow1PiExb8GYANM) -->
-
-<!-- [Slides](https://drive.google.com/open?id=1Rjl9xqXoKniQSRJPdkU1O5YwWC33SJK8KiV0a-H_xZU) -->
-
-### Week 2 - Create Stuff, 🙃 Smile 
-
-This week’s goals: Create stuff, break stuff, and learn from each other
-
-<!-- [Opdrachten](https://drive.google.com/open?id=1GMDTdW3LycAYpZSFI6gk_lrKrx8-zLWrNh69aaVEH5Y) -->
-
-<!-- [Slides](https://drive.google.com/open?id=1IqQeu1m0dQiSC_KCvrn8eencAgtYe7X6qT-gm0n9Bmc) -->
-
-### Week 3 - 🎪 Show time
-
-Goals: Blow us away
-
-<!-- [Opdrachten](https://drive.google.com/open?id=13pKQu72pshaEzKw9q5JHLa-aop85nMP6nDCdqioWjoQ) -->
-
-<!-- [Slides](https://drive.google.com/open?id=1BSzGYNLMgtHD4HRnK7f0DgyTv4Pg3xsQwD_eYNo7v0Y) -->
+## Install
 
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
+## Assignment
+Create a responsive restaurant menu using only **two colours** (restriction 1) and a **design that responds to weather** (restriction 2). I'm going to write my CSS using the **BEM** methodology.  
 
-<!-- ☝️ replace this description with a description of your own work -->
+## Concepts
 
-<!-- Add a nice image here at the end of the week, showing off your shiny frontend 📸 -->
 
-<!-- Maybe a table of contents here? 📚 -->
+## Iterations
 
-<!-- How about a section that describes how to install this project? 🤓 -->
 
-<!-- ...but how does one use this project? What are its features 🤔 -->
+## To-do
+- [x] Pick an assignment   
+- [x] Pick two restrictions   
+- [ ] Brainstorm ideas   
+- [ ] Create a solid concept   
+- [ ] Create codepens to try out ideas   
+- [ ] Use BEM syntax   
+- [ ] Add CSS animations & transitions   
+- [ ] Design responds to weather   
+- [ ] Workout desktop version   
+- [ ] Workout mobile version   
+- [ ] Workout tablet version   
+- [ ] **Don't**/Limit use of JavaScript
 
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
+## Resources
+- [BEM documentation](http://getbem.com/)   
+- [Getting your head around BEM syntax](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)   
+- [Menu example](https://ambiance.vagebond.nl/html/template/grill/)   
+- [BEM documentation](http://getbem.com/)   
 
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+## License
+[MIT](LICENSE) © [Luna May Johansson](https://github.com/maybuzz)
