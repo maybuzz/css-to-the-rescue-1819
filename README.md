@@ -22,6 +22,14 @@ Create a responsive restaurant menu using only **two colours** (restriction 1) a
 
 ## Concepts
 
+### Concept 1: Illustrations
+![Illustrations concept](concept-illustrations.png)
+
+### Concept 2: Bars
+![Bars concept](concept-bars.png)
+
+### Concept 3: Puzzle
+![Puzzle concept](concept-puzzle.png)
 
 ## Iterations
 
