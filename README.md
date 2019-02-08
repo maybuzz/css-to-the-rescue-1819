@@ -39,7 +39,7 @@ Create a responsive restaurant menu using only **two colours** (restriction 1) a
 - [x] Pick two restrictions   
 - [ ] Brainstorm ideas   
 - [ ] Create a solid concept   
-- [ ] Create codepens to try out ideas   
+- [ ] Create CodePens to try out ideas   
 - [ ] Use BEM syntax   
 - [ ] Add CSS animations & transitions   
 - [ ] Design responds to weather   
@@ -49,10 +49,10 @@ Create a responsive restaurant menu using only **two colours** (restriction 1) a
 - [ ] **Don't**/Limit use of JavaScript
 
 ## Resources
+- [My CodePen](https://codepen.io/maybuzz/)   
 - [BEM documentation](http://getbem.com/)   
 - [Getting your head around BEM syntax](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)   
 - [Menu example](https://ambiance.vagebond.nl/html/template/grill/)   
-- [BEM documentation](http://getbem.com/)   
 
 ## License
 [MIT](LICENSE) © [Luna May Johansson](https://github.com/maybuzz)
