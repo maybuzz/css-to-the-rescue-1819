@@ -1,6 +1,6 @@
 # CSS to the rescue
 
-![Restaurant menu](/week1/website.png)
+![Restaurant menu](/img/week1/website.png)
 
 ## Table of contents
 1. [Introduction](#Introduction)
@@ -23,13 +23,13 @@ Create a responsive restaurant menu using only **two colours** (restriction 1) a
 ## Concepts
 
 ### Concept 1: Illustrations
-![Illustrations concept](/week1/concept-illustrations.png)
+![Illustrations concept](/img/week1/concept-illustrations.png)
 
 ### Concept 2: Bars
-![Bars concept](/week1/concept-bars.png)
+![Bars concept](/img/week1/concept-bars.png)
 
 ### Concept 3: Puzzle
-![Puzzle concept](/week1/concept-puzzle.png)
+![Puzzle concept](/img/week1/concept-puzzle.png)
 
 ## Iterations
 
