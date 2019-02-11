@@ -1,40 +1,52 @@
 # Week 1 - 👁 C what you did there
 
-1. Be inspired by Vitaly Friedman.
-2. Pick an assignment
-3. Understand your CSS methodology
-4. Read and explain articles
-5. Work!
+![Restaurant menu](/img/week1/website.png)
 
-## Tuesday
+## Table of contents
+1. [Introduction](#Introduction)
+2. [Install](#Install)
+3. [Assignment](#Assignment)
+4. [Concepts](#Concepts)
+5. [Iterations](#Iterations)
+6. [To-do](#To-do)
+7. [Resources](#Resources)
 
-Hi!
+## Assignment
+Create a responsive restaurant menu using only **two colours** (restriction 1) and a **design that responds to weather** (restriction 2). I'm going to write my CSS using the **BEM** methodology.  
 
-### Inspirational introduction: “Let’s Break The Web!”
+## Concepts
 
-Bring a sketch book. Take (sketch)notes!
+### Concept 1: Illustrations
+![Illustrations concept](/img/week1/concept-illustrations.png)
 
-### Explaining the assignments
+### Concept 2: Bars
+![Bars concept](/img/week1/concept-bars.png)
 
-[All you need to know about the assignments can be found here](the-assignments.md)
+### Concept 3: Puzzle
+![Puzzle concept](/img/week1/concept-puzzle.png)
 
-### Sketching
+## Iterations
 
-Did we say you should bring a sketch book?
 
-### Daily standup
+## To-do
+- [x] Pick an assignment   
+- [x] Pick two restrictions   
+- [ ] Brainstorm ideas   
+- [ ] Create a solid concept   
+- [ ] Create CodePens to try out ideas   
+- [ ] Use BEM syntax   
+- [ ] Add CSS animations & transitions   
+- [ ] Design responds to weather   
+- [ ] Workout desktop version   
+- [ ] Workout mobile version   
+- [ ] Workout tablet version   
+- [ ] **Don't**/Limit use of JavaScript
 
-What did you learn? What’s your plan? Where are the challenges?
+## Resources
+- [My CodePen](https://codepen.io/maybuzz/)   
+- [BEM documentation](http://getbem.com/)   
+- [Getting your head around BEM syntax](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)   
+- [Menu example](https://ambiance.vagebond.nl/html/template/grill/)   
 
-## Thursday
-
-**!important:** We start with [The Weekly Specificity](weekly-specificity.md). Read your articles, be on time!
-
-The rest of the day:
-
-- Work
-- Daily standup
-
-## Friday
-
-- Feedback, conversations
+## License
+[MIT](LICENSE) © [Luna May Johansson](https://github.com/maybuzz)
