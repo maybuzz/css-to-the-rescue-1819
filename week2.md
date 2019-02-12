@@ -1,6 +1,6 @@
 # Week 2 - Break down the web
 
-![Restaurant menu](/src/img/website.png)
+![Restaurant menu](/src/img/website-week2.png)
 
 ## Table of contents
 1. [Introduction](#Introduction)
