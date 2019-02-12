@@ -83,43 +83,36 @@
 
 .section-eggs {
 	grid-area: eggs;
-	position: sticky;
 	top: .5em;
 }
 
 .section-noshes {
 	grid-area: noshes;
-	position: sticky;
 	top: .5em;
 }
 
 .section-platters {
 	grid-area: platters;
-	position: sticky;
 	top: .5em;
 }
 
 .section-soup {
 	grid-area: soup;
-	position: sticky;
 	top: 16.5em;
 }
 
 .section-salads {
 	grid-area: salads;
-	position: sticky;
 	top: 16.5em;
 }
 
 .section-boards {
 	grid-area: boards;
-	position: sticky;
 	top: 32.5rem;
 }
 
 .section-sweet {
 	grid-area: sweet;
-	position: sticky;
 	top: 32.5rem;
 }
 
@@ -165,7 +158,7 @@
 		". . ."
 		"sweet sweet sweet";
 		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: repeat(30, 25vh);
+		grid-template-rows: repeat(30, 22.5vh);
   }
 
 	.title {
@@ -191,42 +184,35 @@
 
 	.section-eggs {
 		grid-area: eggs;
-		position: sticky;
 		top: 1em;
 	}
 
 	.section-noshes {
 		grid-area: noshes;
-		position: sticky;
 		top: 1em;
 	}
 
 	.section-platters {
 		grid-area: platters;
-		position: sticky;
-		top: 40.25em;
+		top: 36.7em;
 	}
 
 	.section-soup {
 		grid-area: soup;
-		position: sticky;
-		top: 27.15em;
+		top: 24.75em;
 	}
 
 	.section-salads {
 		grid-area: salads;
-		position: sticky;
-		top: 40.25em;
+		top: 36.7em;
 	}
 
 	.section-boards {
 		grid-area: boards;
-		position: sticky;
 	}
 
 	.section-sweet {
 		grid-area: sweet;
-		position: sticky;
 		top: 100;
 	}
 
@@ -240,19 +226,40 @@
 	.menu {
 		height: 310vh;
 		grid-template-areas:
-			"header header"
-	    "eggs eggs"
-	    "eggs eggs"
-			"noshes noshes"
-			"noshes noshes"
-			"platters platters"
-			"soup soup"
-			"salads salads"
-			"boards boards"
-			"sweet sweet"
-			"sweet sweet";
+			"header"
+			"."
+			"."
+			"."
+	    "eggs"
+	    "eggs"
+			"."
+			"."
+			"noshes"
+			"noshes"
+			"."
+			"."
+			"."
+			"."
+			"platters"
+			"."
+			"."
+			"."
+			"."
+			"soup"
+			"."
+			"."
+			"."
+			"salads"
+			"."
+			"."
+			"."
+			"boards"
+			"."
+			"."
+			"sweet"
+			"sweet";
 		grid-template-columns: 1fr;
-		grid-template-rows: 7.5vh 25vh 25vh 25vh 25vh 30vh 30vh 30vh 30vh 25vh 25vh;
+		grid-template-rows: repeat(33, 22.5vh);
   }
 
 	.title {
@@ -273,7 +280,6 @@
 
 	.section {
 		background-color: blue;
-		padding: 0.5rem 1rem;
 	}
 
 	.section-eggs {
@@ -286,6 +292,7 @@
 
 	.section-platters {
 		grid-area: platters;
+		top: 0;
 	}
 
 	.section-soup {

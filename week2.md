@@ -5,9 +5,10 @@
 ## Table of contents
 1. [Introduction](#Introduction)
 2. [Concept](#Concept)
-3. [Iterations](#Iterations)
-4. [To-do](#To-do)
-5. [Resources](#Resources)
+3. [Responsive](#Responsive)
+4. [Iterations](#Iterations)
+5. [To-do](#To-do)
+6. [Resources](#Resources)
 
 ## Introduction
 This week I will improve my design. When this is done I will break it down to small parts to improve them one by one.
@@ -15,6 +16,10 @@ This week I will improve my design. When this is done I will break it down to sm
 ## Concept
 Tetris puzzle layout, blocks will fall up when you scroll.
 Information about the concept can be found at [week 1, concept 3: puzzle](https://github.com/maybuzz/css-to-the-rescue-1819/blob/master/week1.md).
+
+## Responsive
+![Tablet menu](/src/img/tablet.png)
+![Mobile menu](/src/img/mobile.png)
 
 ## Breaking down the web
 
