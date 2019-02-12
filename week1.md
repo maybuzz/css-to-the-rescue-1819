@@ -27,11 +27,11 @@ I like this idea, but I'm missing some depth. It doesn't feel "cool" enough... M
 ![Puzzle concept](/src/img/concept-puzzle.png)   
 This last concept will combine some of the previous ideas. I still want a simple design and a lot of css animations, but I'm going to add some scrolling-action. I want to start of with a simple menu design using blocks. These blocks will form the "puzzle". Scrolling through the page will make each block come forward while the others disappear. The dishes will fly through the page depending on the weather.
 
-A calm summer breeze will make the elements fly through the page at a low pace. I'd like some bird sounds in the background and use two light colours.
+A **calm summer breeze** will make the elements fly through the page at a low pace. I'd like some bird sounds in the background and use two light colours.
 
-A rainy day will have two different (darker) colours and some other animations. For example, elements will float up and down as if they're falling down. Hovering over them will make them stop.
+A **rainy day** will have two different (darker) colours and some other animations. For example, elements will float up and down as if they're falling down. Hovering over them will make them stop.
 
-A cloudy day will, again, have two different colours. I think it would be fun to have something represent clouds. Users will have to 'blow' the clouds away so they can read the dishes.
+A **cloudy day** will, again, have two different colours. I think it would be fun to have something represent clouds. Users will have to 'blow' the clouds away so they can read the dishes.
 
 ## Process
 

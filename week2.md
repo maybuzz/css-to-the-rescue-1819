@@ -4,40 +4,34 @@
 
 ## Table of contents
 1. [Introduction](#Introduction)
-2. [Assignment](#Assignment)
-3. [Concept](#Concept)
-4. [Iterations](#Iterations)
-5. [To-do](#To-do)
-6. [Resources](#Resources)
+2. [Concept](#Concept)
+3. [Iterations](#Iterations)
+4. [To-do](#To-do)
+5. [Resources](#Resources)
 
-## Assignment
-Create a responsive restaurant menu using only **two colours** (restriction 1) and a **design that responds to weather** (restriction 2). I'm going to write my CSS using the **BEM** methodology.  
+## Introduction
+This week I will improve my design. When this is done I will break it down to small parts to improve them one by one.
 
 ## Concept
-![Puzzle concept](/src/img/concept-puzzle.png)
+Information about the concept can be find at [week 1, concept 3: puzzle](https://github.com/maybuzz/css-to-the-rescue-1819/blob/master/week1.md).
 
-## Iterations
+## Breaking down the web
 
 
 ## To-do
-- [x] Pick an assignment   
-- [x] Pick two restrictions   
-- [ ] Brainstorm ideas   
-- [ ] Create a solid concept   
-- [ ] Create CodePens to try out ideas   
-- [ ] Use BEM syntax   
-- [ ] Add CSS animations & transitions   
-- [ ] Design responds to weather   
-- [ ] Workout desktop version   
-- [ ] Workout mobile version   
-- [ ] Workout tablet version   
-- [ ] **Don't**/Limit use of JavaScript
+- [ ] Finish layout (puzzle, blocks etc.)   
+- [ ] Add dishes   
+- [ ] Animate blocks   
+- [ ] Animate dishes (floating)   
+- [ ] Responsive design (mobile, ipad)   
+- [ ] Colours depending on the weather   
+  - [ ] Sunny day   
+  - [ ] Rainy day   
+  - [ ] Cloudy day   
 
 ## Resources
-- [My CodePen](https://codepen.io/maybuzz/)   
-- [BEM documentation](http://getbem.com/)   
-- [Getting your head around BEM syntax](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)   
-- [Menu example](https://ambiance.vagebond.nl/html/template/grill/)   
+- [Menu puzzle](https://codepen.io/maybuzz/pen/rPJBBV)   
+
 
 ## License
 [MIT](LICENSE) © [Luna May Johansson](https://github.com/maybuzz)
