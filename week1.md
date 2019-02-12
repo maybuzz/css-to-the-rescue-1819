@@ -5,9 +5,11 @@
 ## Table of contents
 1. [Assignment](#Assignment)
 2. [Concepts](#Concepts)
-3. [Process](#Process)
-4. [To-do](#To-do)
-5. [Resources](#Resources)
+  - Concept 1: Illustrations
+  - Concept 2: Bars
+  - Concept 3: Puzzle 
+3. [To-do](#To-do)
+4. [Resources](#Resources)
 
 ## Assignment
 Create a responsive restaurant menu using only **two colours** (restriction 1) and a **design that responds to weather** (restriction 2). I'm going to write my CSS using the **BEM** methodology.  
@@ -25,35 +27,28 @@ I like this idea, but I'm missing some depth. It doesn't feel "cool" enough... M
 
 ### Concept 3: Puzzle
 ![Puzzle concept](/src/img/concept-puzzle.png)   
-This last concept will combine some of the previous ideas. I still want a simple design and a lot of css animations, but I'm going to add some scrolling-action. I want to start of with a simple menu design using blocks. These blocks will form the "puzzle". Scrolling through the page will make each block come forward while the others disappear. The dishes will fly through the page depending on the weather.
+This last concept will combine some of the previous ideas. I still want a simple design and a lot of css animations, but I'm going to add some scrolling-action. I want to start with a simple menu design using blocks. These blocks will form the "puzzle", kind of like the game "Tetris". Scrolling through the page will make each block come forward and stick to the top of the page.
 
-A **calm summer breeze** will make the elements fly through the page at a low pace. I'd like some bird sounds in the background and use two light colours.
+The colours of the page will change depending on the weather. On a **hot summer day** the page will be light. On a **rainy day** the page will be darker. On a **cloudy day** the page will look blurry and grey. Hover will clear up the blur effect.
 
-A **rainy day** will have two different (darker) colours and some other animations. For example, elements will float up and down as if they're falling down. Hovering over them will make them stop.
-
-A **cloudy day** will, again, have two different colours. I think it would be fun to have something represent clouds. Users will have to 'blow' the clouds away so they can read the dishes.
-
-## Process
-
+Eventually I'd like to add animations and transitions to show the change of the weather.
 
 ## To-do
 - [x] Pick an assignment   
 - [x] Pick two restrictions   
 - [x] Brainstorm ideas   
-- [ ] Create a solid concept   
+- [x] Create a solid concept   
 - [x] Create CodePens to try out ideas   
-- [ ] Use BEM syntax   
+- [x] Design responds to weather (concept)   
+- [ ] Use **correct** BEM syntax   
+  - [x] First try   
 - [ ] Add CSS animations & transitions   
-- [ ] Design responds to weather   
-- [ ] Workout desktop version   
-- [ ] Workout mobile version   
-- [ ] Workout tablet version   
-- [ ] **Don't**/Limit use of JavaScript
 
 ## Resources
-- [My CodePen](https://codepen.io/maybuzz/)   
 - [BEM documentation](http://getbem.com/)   
 - [Getting your head around BEM syntax](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)   
+- [CodePen: Menu puzzle](https://codepen.io/maybuzz/pen/rPJBBV)   
+- [CodePen: Menu bars](https://codepen.io/maybuzz/pen/mvMvNE)   
 - [Menu example](https://ambiance.vagebond.nl/html/template/grill/)   
 
 ## License

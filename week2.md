@@ -13,24 +13,32 @@
 This week I will improve my design. When this is done I will break it down to small parts to improve them one by one.
 
 ## Concept
-Information about the concept can be find at [week 1, concept 3: puzzle](https://github.com/maybuzz/css-to-the-rescue-1819/blob/master/week1.md).
+Tetris puzzle layout, blocks will fall up when you scroll.
+Information about the concept can be found at [week 1, concept 3: puzzle](https://github.com/maybuzz/css-to-the-rescue-1819/blob/master/week1.md).
 
 ## Breaking down the web
 
 
 ## To-do
-- [ ] Finish layout (puzzle, blocks etc.)   
+- [ ] Finish grid layout   
+  - [x] Desktop   
+  - [ ] Tablet   
+  - [ ] Mobile   
+- [x] Setup huge grid   
+  - [x] Set grid areas right (start with "empty" page, scroll sections in)   
 - [ ] Add dishes   
 - [ ] Animate blocks   
-- [ ] Animate dishes (floating)   
-- [ ] Responsive design (mobile, ipad)   
+- [ ] Show ingredients on :hover   
+- [ ] Illustrate allergy labels (full colour)   
+  - [ ] Show on :hover   
 - [ ] Colours depending on the weather   
   - [ ] Sunny day   
   - [ ] Rainy day   
   - [ ] Cloudy day   
 
 ## Resources
-- [Menu puzzle](https://codepen.io/maybuzz/pen/rPJBBV)   
+- [CSS-Tricks: Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)   
+- [Position: sticky](https://codepen.io/stephanmax/pen/odyxWE?editors=1100)   
 
 
 ## License
