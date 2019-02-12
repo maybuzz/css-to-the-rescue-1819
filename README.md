@@ -1,12 +1,13 @@
 # CSS to the rescue
 
-![Restaurant menu](/img/week1/website.png)
+![Restaurant menu](/src/img/website.png)
 
 ## Table of contents
 1. [Introduction](#Introduction)
 2. [Install](#Install)
 3. [Assignment](#Assignment)
-4. [Concepts](#Concepts)
+4. [Process](#Process)
+4. [Concept](#Concept)
 5. [Iterations](#Iterations)
 6. [To-do](#To-do)
 7. [Resources](#Resources)
@@ -20,16 +21,11 @@ For this assignment I chose to create a responsive restaurant menu, using severa
 ## Assignment
 Create a responsive restaurant menu using only **two colours** (restriction 1) and a **design that responds to weather** (restriction 2). I'm going to write my CSS using the **BEM** methodology.  
 
-## Concepts
+## Process
 
-### Concept 1: Illustrations
-![Illustrations concept](/img/week1/concept-illustrations.png)
 
-### Concept 2: Bars
-![Bars concept](/img/week1/concept-bars.png)
-
-### Concept 3: Puzzle
-![Puzzle concept](/img/week1/concept-puzzle.png)
+## Concept
+![Puzzle concept](/src/img/concept-puzzle.png)
 
 ## Iterations
 
@@ -37,9 +33,9 @@ Create a responsive restaurant menu using only **two colours** (restriction 1) a
 ## To-do
 - [x] Pick an assignment   
 - [x] Pick two restrictions   
-- [ ] Brainstorm ideas   
+- [x] Brainstorm ideas   
 - [ ] Create a solid concept   
-- [ ] Create CodePens to try out ideas   
+- [x] Create CodePens to try out ideas   
 - [ ] Use BEM syntax   
 - [ ] Add CSS animations & transitions   
 - [ ] Design responds to weather   

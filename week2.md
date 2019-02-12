@@ -1,29 +1,20 @@
-# Week 1 - 👁 C what you did there
+# Week 2 - Break down the web
 
-![Restaurant menu](/img/week1/website.png)
+![Restaurant menu](/src/img/website.png)
 
 ## Table of contents
 1. [Introduction](#Introduction)
-2. [Install](#Install)
-3. [Assignment](#Assignment)
-4. [Concepts](#Concepts)
-5. [Iterations](#Iterations)
-6. [To-do](#To-do)
-7. [Resources](#Resources)
+2. [Assignment](#Assignment)
+3. [Concept](#Concept)
+4. [Iterations](#Iterations)
+5. [To-do](#To-do)
+6. [Resources](#Resources)
 
 ## Assignment
 Create a responsive restaurant menu using only **two colours** (restriction 1) and a **design that responds to weather** (restriction 2). I'm going to write my CSS using the **BEM** methodology.  
 
-## Concepts
-
-### Concept 1: Illustrations
-![Illustrations concept](/img/week1/concept-illustrations.png)
-
-### Concept 2: Bars
-![Bars concept](/img/week1/concept-bars.png)
-
-### Concept 3: Puzzle
-![Puzzle concept](/img/week1/concept-puzzle.png)
+## Concept
+![Puzzle concept](/src/img/concept-puzzle.png)
 
 ## Iterations
 
