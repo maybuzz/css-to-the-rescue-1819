@@ -18,8 +18,8 @@ Tetris puzzle layout, blocks will fall up when you scroll.
 Information about the concept can be found at [week 1, concept 3: puzzle](https://github.com/maybuzz/css-to-the-rescue-1819/blob/master/week1.md).
 
 ## Responsive
-![Tablet menu](/src/img/tablet.png)
-![Mobile menu](/src/img/mobile.png)
+![Tablet menu](/src/img/tablet.png)   
+![Mobile menu](/src/img/mobile.png)   
 
 ## Breaking down the web
 
