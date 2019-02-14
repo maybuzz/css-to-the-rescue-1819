@@ -48,45 +48,55 @@
 /* styles */
 
 .body {
-	background-color: darkred;
+	background-color: #fc85f2;
 	width: 100vw;
 	margin: 0 auto;
 }
 
 .header {
+	top: 20vh;
 	grid-area: header;
 	text-align: center;
 	position: sticky;
 }
 
 .title {
-	color: red;
+	color: #e80909;
+	font-size: 10em;
 }
 
 .title-dish {
-	color: darkred;
+	color: #fc85f2;
+	font-size: 1.75rem;
 }
 
 .subtitle {
-	color: red;
-	margin: 0.5rem 0 1em 0;
+	font-size: 1.5em;
+	color: #e80909;
 }
 
 .subtitle-dish {
-	color: darkred;
+	color: #fc85f2;
 }
 
 /* menu sections */
 
 .section {
-	background-color: red;
+	background-color: #e80909;
 	padding: 0.5rem 1rem;
 	position: sticky;
 	top: 1em;
+	overflow: hidden;
 }
 
 .section:hover {
-	border-radius: 50px;
+	background-color: #fc85f2;
+	z-index: 1;
+	height: 100%;
+}
+
+.section:hover .title-dish, .section:hover .subtitle-dish, .section:hover .dish {
+	color: #e80909;
 }
 
 .section-eggs {
@@ -106,17 +116,23 @@
 
 .section-soup {
 	grid-area: soup;
-	top: 15.25em;
+	top: 15.15em;
 }
 
 .section-salads {
 	grid-area: salads;
-	top: 15.25em;
+	top: 15.15em;
 }
 
 .section-boards {
 	grid-area: boards;
-	top: 32.5rem;
+	top: 29.75rem;
+}
+
+.container--platters, .container--boards, .container--sweet {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 1rem;
 }
 
 .section-sweet {
@@ -124,7 +140,46 @@
 	top: 32.5rem;
 }
 
+/* dishes */
 
+.article {
+	margin: 0.7rem 0;
+}
+
+.article--dish {
+
+}
+
+.article--dish:hover {
+	/* padding: .3rem; */
+	background-color: #e80909;
+}
+
+.article--dish:hover .name--dish,  .article--dish:hover .text--dish, .article--dish:hover .prize {
+	color: #fc85f2;
+}
+
+.name--dish {
+	color: #e80909;
+	font-size: 1rem;
+	margin: 0;
+	padding: 0;
+}
+
+.text--dish {
+	color: #e80909;
+	font-size: 1rem;
+	margin: 0;
+	padding: 0;
+}
+
+.prize {
+	color: #e80909;
+	float: right;
+	font-size: 1rem;
+	margin: 0;
+	padding: 0;
+}
 
 @media (max-width: 58em) {
 
@@ -132,54 +187,49 @@
 
 	.menu {
 		position: absolute;
-		grid-gap: 1em;
+		grid-gap: 0;
 		grid-template-areas:
 		"header header header"
 		". . ."
 		". . ."
 		". . ."
-    "eggs eggs ."
-    "eggs eggs ."
+    "eggs . ."
 		". . ."
 		". . ."
-		". . noshes"
-		". . noshes"
-		". . noshes"
+		". noshes ."
 		". . ."
-		". . platters"
-		". . platters"
+		". . ."
 		". . platters"
 		". . ."
 		". . ."
-		". . ."
-		"soup soup ."
-		". . ."
+		"soup . ."
 		". . ."
 		". . ."
-		"salads salads ."
+		". salads ."
 		". . ."
 		". . ."
-		". . ."
-		"boards boards ."
+		". . boards"
 		". . ."
 		". . ."
 		"sweet sweet sweet";
 		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: repeat(30, 22.5vh);
+		grid-template-rows: repeat(30, 25vh);
   }
 
 	/* styles */
 
 	.body {
-    background-color: darkgreen;
+    background-color: #fff;
   }
 
 	.title {
 		color: lightgreen;
+		line-height: 11.5rem;
+		font-size: 9em;
 	}
 
 	.title-dish {
-		color: darkgreen;
+		color: #fff;
 	}
 
 	.subtitle {
@@ -187,48 +237,128 @@
 	}
 
 	.subtitle-dish {
-		color: darkgreen;
+		color: #fff;
 	}
 
 	/* menu sections */
 
 	.section {
+		height: 20vw;
 		background-color: lightgreen;
-		padding: 0.5rem 1rem;
+
+	}
+
+	.section:hover {
+		background-color: #fff;
+		z-index: 1;
+	}
+
+	.section:hover .title-dish, .section:hover .subtitle-dish {
+		color: lightgreen;
 	}
 
 	.section-eggs {
 		grid-area: eggs;
-		top: 1em;
+		top: 2.5vh;
+	}
+
+	.section-eggs:hover {
+		height: 75vh
 	}
 
 	.section-noshes {
 		grid-area: noshes;
-		top: 1em;
+		top: 2.5vh;
+	}
+
+	.section-noshes:hover {
+		height: 60vh;
 	}
 
 	.section-platters {
 		grid-area: platters;
-		top: 36.7em;
+		top: 2.5vh;
+	}
+
+	.section-platters:hover {
+		height: 50vh;
 	}
 
 	.section-soup {
 		grid-area: soup;
-		top: 24.75em;
+		top: 38vh;
 	}
 
 	.section-salads {
 		grid-area: salads;
-		top: 36.7em;
+		top: 38vh;
+	}
+
+	.section-soup:hover, .section-salads:hover {
+		height: 30vh;
 	}
 
 	.section-boards {
 		grid-area: boards;
+		top: 38vh;
+	}
+
+	.section-boards:hover {
+		height: 57.5vh;
 	}
 
 	.section-sweet {
 		grid-area: sweet;
-		top: 100;
+		top: 100vh;
+	}
+
+	.container--platters, .container--boards {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-column-gap: 1rem;
+	}
+
+	.container--sweet {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-column-gap: 1rem;
+	}
+
+	/* dishes */
+
+	.article {
+		margin: 0.7rem 0;
+	}
+
+	.article--dish:hover {
+		/* padding: .3rem; */
+		background-color: lightgreen;
+	}
+
+	.article--dish:hover .name--dish,  .article--dish:hover .text--dish, .article--dish:hover .prize {
+		color: #fff;
+	}
+
+	.name--dish {
+		color: lightgreen;
+		font-size: 1rem;
+		margin: 0;
+		padding: 0;
+	}
+
+	.text--dish {
+		color: lightgreen;
+		font-size: 1rem;
+		margin: 0;
+		padding: 0;
+	}
+
+	.prize {
+		color: lightgreen;
+		float: right;
+		font-size: 1rem;
+		margin: 0;
+		padding: 0;
 	}
 
 }
@@ -238,97 +368,166 @@
 	/* grid */
 
 	.menu {
-		height: 310vh;
+		/* height: 310vh; */
 		grid-template-areas:
 			"header"
 			"."
 			"."
 			"."
+			"."
 	    "eggs"
-	    "eggs"
+			"eggs"
 			"."
 			"."
 			"noshes"
 			"noshes"
-			"."
-			"."
 			"."
 			"."
 			"platters"
-			"."
-			"."
+			"platters"
 			"."
 			"."
 			"soup"
-			"."
+			"soup"
 			"."
 			"."
 			"salads"
+			"salads"
 			"."
 			"."
-			"."
+			"boards"
 			"boards"
 			"."
 			"."
 			"sweet"
 			"sweet";
 		grid-template-columns: 1fr;
-		grid-template-rows: repeat(33, 22.5vh);
+		grid-template-rows: repeat(40, 25vh);
   }
 
 	/* styles */
 
 	.body {
-		background-color: darkblue;
+		background-color: #89cff0;
 	}
 
 	.title {
-		color: blue;
+		color: #f987c5;
+		font-size: 5.5em;
 	}
 
 	.title-dish {
-		color: darkblue;
+		color: #89cff0;
 	}
 
 	.subtitle {
-		color: blue;
+		color: #f987c5;
+		font-size: 1.25rem;
+		margin-top: 10vh;
+
 	}
 
 	.subtitle-dish {
-		color: darkblue;
+		color: #89cff0;
 	}
 
 	/* menu sections */
 
 	.section {
-		background-color: blue;
+		background-color: #f987c5;
+	}
+
+	.section:hover {
+		background-color: #89cff0;
+	}
+
+	.section:hover .title-dish, .section:hover .subtitle-dish {
+		color: #f987c5;
+	}
+
+	.section-eggs:hover, .section-noshes:hover, .section-platters:hover, .section-soup:hover, .section-salads:hover, .section-boards:hover, .section-sweet:hover {
+		height: 95vh;
 	}
 
 	.section-eggs {
 		grid-area: eggs;
+		top: 2vh;
 	}
 
 	.section-noshes {
 		grid-area: noshes;
+		top: 2vh;
 	}
 
 	.section-platters {
 		grid-area: platters;
+		top: 2vh;
 	}
 
 	.section-soup {
 		grid-area: soup;
+		top: 2vh;
 	}
 
 	.section-salads {
 		grid-area: salads;
+		top: 2vh;
 	}
 
 	.section-boards {
 		grid-area: boards;
+		top: 2vh;
 	}
 
 	.section-sweet {
 		grid-area: sweet;
+		top: 2vh;
+	}
+
+	.container--sweet {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-column-gap: 1rem;
+	}
+
+	/* dishes */
+
+	.article {
+		margin: 0.7rem 0;
+	}
+
+	.article--dish {
+
+	}
+
+	.article--dish:hover {
+		/* padding: .3rem; */
+		background-color: #f987c5;
+	}
+
+	.article--dish:hover .name--dish,  .article--dish:hover .text--dish, .article--dish:hover .prize {
+		color: #89cff0;
+	}
+
+	.name--dish {
+		color: #f987c5;
+		font-size: 1rem;
+		margin: 0;
+		padding: 0;
+	}
+
+	.text--dish {
+		color: #f987c5;
+		font-size: 1rem;
+		margin: 0;
+		padding: 0;
+	}
+
+	.prize {
+		color: #f987c5;
+		float: right;
+		font-size: 1rem;
+		margin: 0;
+		padding: 0;
 	}
 }
