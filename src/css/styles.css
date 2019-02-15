@@ -82,6 +82,7 @@
 /* menu sections */
 
 .section {
+	scroll-behavior: [ auto | smooth ];
 	background-color: #e80909;
 	padding: 0.5rem 1rem;
 	position: sticky;
@@ -144,6 +145,7 @@
 
 .article {
 	margin: 0.7rem 0;
+	padding: .2rem .5rem;
 }
 
 .article--dish {

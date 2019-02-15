@@ -7,7 +7,7 @@
 2. [Concepts](#Concepts)
   - Concept 1: Illustrations
   - Concept 2: Bars
-  - Concept 3: Puzzle 
+  - Concept 3: Puzzle
 3. [To-do](#To-do)
 4. [Resources](#Resources)
 
@@ -41,8 +41,7 @@ Eventually I'd like to add animations and transitions to show the change of the 
 - [x] Create CodePens to try out ideas   
 - [x] Design responds to weather (concept)   
 - [ ] Use **correct** BEM syntax   
-  - [x] First try   
-- [ ] Add CSS animations & transitions   
+  - [x] First try     
 
 ## Resources
 - [BEM documentation](http://getbem.com/)   
