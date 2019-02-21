@@ -1,5 +1,12 @@
-/* colors */
+.nopadding {
+	padding: 0;
+}
 
+.nomargin {
+	margin: 0;
+}
+
+/* colors */
 :root {
 	--color-default-primary: #fff;
   --color-default-secondary: #000;
@@ -14,7 +21,6 @@
 }
 
 /* switch */
-
 /* default: black&white */
 .default-switch:checked ~ .menu .title, .default-switch:checked ~ .menu .subtitle {
   color: var(--color-default-secondary);
@@ -37,9 +43,6 @@
 }
 
 
-
-
-
 /* sunny: pink&red */
 .sunny-switch:checked ~ .menu .title, .sunny-switch:checked ~ .menu .subtitle {
   color: var(--color-sun-secondary);
@@ -54,13 +57,12 @@
 }
 
 .sunny-switch:checked ~ .menu .section .title-dish, .sunny-switch:checked ~ .menu .section .subtitle-dish, .sunny-switch:checked ~ .menu .section .article:hover .prize, .sunny-switch:checked ~ .menu .section .article:hover .name--dish, .sunny-switch:checked ~ .menu .section .article:hover .text--dish {
-	color: var(--color-sun-primary));
+	color: var(--color-sun-primary);
 }
 
 .sunny-switch:checked ~ .menu .section:hover .title-dish, .sunny-switch:checked ~ .menu .section:hover .subtitle-dish, .sunny-switch:checked ~ .menu .section .article .prize, .sunny-switch:checked ~ .menu .section .article .name--dish, .sunny-switch:checked ~ .menu .section .article .text--dish {
 	color: var(--color-sun-secondary);
 }
-
 
 
 /* rainy: blue&pink */
@@ -86,7 +88,6 @@
 }
 
 
-
 /* cloudy: white&green */
 .cloudy-switch:checked ~ .menu .title, .cloudy-switch:checked ~ .menu .subtitle {
   color: var(--color-cloudy-secondary);
@@ -108,20 +109,12 @@
 	color: var(--color-cloudy-secondary);
 }
 
+
 /* stormy: purple&yellow */
 .stormy-switch:checked ~ .menu {
   background-color: #;
 }
 
-/* attributes */
-
-.nopadding {
-	padding: 0;
-}
-
-.nomargin {
-	margin: 0;
-}
 
 /* grid */
 
@@ -160,6 +153,7 @@
 	grid-template-rows: repeat(24, 30vh);
 }
 
+
 /* styles */
 
 .body {
@@ -168,7 +162,7 @@
 }
 
 .menu {
-	background-color: var(--color-sun-primary);
+	background-color: var(--color-default-primary);
 }
 
 .header {
@@ -178,32 +172,33 @@
 }
 
 .title {
-	color: #e80909;
+	color: var(--color-default-secondary);
 	font-size: 10em;
 	transition: font-size .5s ease-in;
 }
 
 .title-dish {
-	color: #fc85f2;
+	color: var(--color-default-primary);
 	font-size: 1.75rem;
 	transform: rotate(180deg)
 }
 
 .subtitle {
 	font-size: 1.5em;
-	color: #e80909;
+	color: var(--color-default-secondary);
 }
 
 .subtitle-dish {
-	color: #fc85f2;
+	color: var(--color-default-primary);
 	transform: rotate(180deg)
 }
+
 
 /* menu sections */
 
 .section {
 	scroll-behavior: [ auto | smooth ];
-	background-color: #e80909;
+	background-color: var(--color-default-secondary);
 	padding: 0.5rem 1rem;
 	position: sticky;
 	top: 1em;
@@ -212,24 +207,14 @@
 }
 
 .section:hover {
-	background-color: #fc85f2;
+	background-color: var(--color-default-primary);
 	height: 100%;
 	transition: transform .2;
 	transform: rotate(360deg);
-	animation: color .4s ease-out 0s ;
-}
-
-@keyframes color {
-	0%{
-		background-color: #e80909;
-	}
-	100%{
-		background-color: #fc85f2;
-	}
 }
 
 .section:hover .title-dish, .section:hover .subtitle-dish, .section:hover .dish {
-	color: #e80909;
+	color: var(--color-default-secondary);
 	transform: rotate(360deg);
 
 }
@@ -275,6 +260,7 @@
 	top: 32.5rem;
 }
 
+
 /* dishes */
 
 .article {
@@ -282,35 +268,30 @@
 	padding: .2rem .5rem;
 }
 
-.article--dish {
-
-}
-
 .article--dish:hover {
-	/* padding: .3rem; */
-	background-color: #e80909;
+	background-color: var(--color-default-secondary);
 }
 
 .article--dish:hover .name--dish,  .article--dish:hover .text--dish, .article--dish:hover .prize {
-	color: #fc85f2;
+	color: var(--color-default-primary);
 }
 
 .name--dish {
-	color: #e80909;
+	color: var(--color-default-secondary);
 	font-size: 1rem;
 	margin: 0;
 	padding: 0;
 }
 
 .text--dish {
-	color: #e80909;
+	color: var(--color-default-secondary);
 	font-size: 1rem;
 	margin: 0;
 	padding: 0;
 }
 
 .prize {
-	color: #e80909;
+	color: var(--color-default-secondary);
 	float: right;
 	font-size: 1rem;
 	margin: 0;
@@ -319,10 +300,7 @@
 
 @media (max-width: 58em) {
 
-	/* grid */
-
 	.menu {
-		position: absolute;
 		grid-gap: 0;
 		grid-template-areas:
 		"header header header"
@@ -354,43 +332,15 @@
 
 	/* styles */
 
-	.body {
-    background-color: #fff;
-  }
-
 	.title {
-		color: lightgreen;
 		line-height: 11.5rem;
 		font-size: 9em;
-	}
-
-	.title-dish {
-		color: #fff;
-	}
-
-	.subtitle {
-		color: lightgreen;
-	}
-
-	.subtitle-dish {
-		color: #fff;
 	}
 
 	/* menu sections */
 
 	.section {
 		height: 20vw;
-		background-color: lightgreen;
-
-	}
-
-	.section:hover {
-		background-color: #fff;
-		/* z-index: 1; */
-	}
-
-	.section:hover .title-dish, .section:hover .subtitle-dish {
-		color: lightgreen;
 	}
 
 	.section-eggs {
@@ -466,45 +416,24 @@
 		margin: 0.7rem 0;
 	}
 
-	.article--dish:hover {
-		/* padding: .3rem; */
-		background-color: lightgreen;
-	}
-
-	.article--dish:hover .name--dish,  .article--dish:hover .text--dish, .article--dish:hover .prize {
-		color: #fff;
-	}
-
 	.name--dish {
-		color: lightgreen;
 		font-size: 1rem;
-		margin: 0;
-		padding: 0;
 	}
 
 	.text--dish {
-		color: lightgreen;
 		font-size: 1rem;
-		margin: 0;
-		padding: 0;
 	}
 
 	.prize {
-		color: lightgreen;
 		float: right;
 		font-size: 1rem;
-		margin: 0;
-		padding: 0;
 	}
-
 }
 
 @media (max-width: 38em) {
 
 	/* grid */
-
 	.menu {
-		/* height: 310vh; */
 		grid-template-areas:
 			"header"
 			"."
@@ -542,45 +471,16 @@
   }
 
 	/* styles */
-
-	.body {
-		background-color: #89cff0;
-	}
-
 	.title {
-		color: #f987c5;
 		font-size: 5.5em;
 	}
 
-	.title-dish {
-		color: #89cff0;
-	}
-
 	.subtitle {
-		color: #f987c5;
 		font-size: 1.25rem;
 		margin-top: 10vh;
-
-	}
-
-	.subtitle-dish {
-		color: #89cff0;
 	}
 
 	/* menu sections */
-
-	.section {
-		background-color: #f987c5;
-	}
-
-	.section:hover {
-		background-color: #89cff0;
-	}
-
-	.section:hover .title-dish, .section:hover .subtitle-dish {
-		color: #f987c5;
-	}
-
 	.section-eggs:hover, .section-noshes:hover, .section-platters:hover, .section-soup:hover, .section-salads:hover, .section-boards:hover, .section-sweet:hover {
 		height: 95vh;
 	}
@@ -632,38 +532,16 @@
 		margin: 0.7rem 0;
 	}
 
-	.article--dish {
-
-	}
-
-	.article--dish:hover {
-		/* padding: .3rem; */
-		background-color: #f987c5;
-	}
-
-	.article--dish:hover .name--dish,  .article--dish:hover .text--dish, .article--dish:hover .prize {
-		color: #89cff0;
-	}
-
 	.name--dish {
-		color: #f987c5;
 		font-size: 1rem;
-		margin: 0;
-		padding: 0;
 	}
 
 	.text--dish {
-		color: #f987c5;
 		font-size: 1rem;
-		margin: 0;
-		padding: 0;
 	}
 
 	.prize {
-		color: #f987c5;
 		float: right;
 		font-size: 1rem;
-		margin: 0;
-		padding: 0;
 	}
 }
