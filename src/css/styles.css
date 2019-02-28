@@ -97,15 +97,9 @@
 }
 
 @keyframes blink {
-	0% {
-		opacity: 0;
-	}
-	50% {
-		opacity: .75;
-	}
-	100% {
-		opacity: 1;
-	}
+	0% { opacity: 0;}
+	50% { opacity: .75;}
+	100% { opacity: 1;}
 }
 
 .logo__title {
@@ -700,6 +694,7 @@
 @media (max-width: 38em) {
 	/* grid */
 	.menu {
+		background-color: var(--color-default-primary);
 		grid-template-areas:
 			"header"
 			"."
@@ -745,19 +740,38 @@
 
 	/* logo */
 	.logo__title {
+		color: var(--color-default-secondary);
 		line-height: 8rem;
 		font-size: 6em;
 	}
 
 	.logo__subtitle {
+		color: var(--color-default-secondary);
 		font-size: 1.25rem;
 		margin-top: 15%;
 	}
 
 	/* menu sections */
+	.section {
+		background-color: var(--color-default-secondary);
+	}
+
+	.section__header__title {
+		color: var(--color-default-primary);
+	}
+
+	.section__header__subtitle {
+		color: var(--color-default-primary);
+	}
+
+	.section:hover .section__header__title, .section:hover .section__header__subtitle {
+		color: var(--color-default-secondary);
+	}
 
 	.section:hover {
+		background-color: var(--color-default-primary);
 		height: 95vh;
+		top: 2%;
 	}
 
 	.section--eggs {
@@ -806,17 +820,28 @@
 		margin: 0.7rem 0;
 	}
 
+	.section__dish:hover {
+		background-color: var(--color-default-secondary);
+	}
+
 	.section__dish__title {
+		color: var(--color-default-secondary);
 		font-size: 1rem;
 	}
 
 	.section__dish__subtitle {
+		color: var(--color-default-secondary);
 		font-size: 1rem;
 	}
 
 	.section__dish__prize {
+		color: var(--color-default-secondary);
 		float: right;
 		font-size: 1rem;
+	}
+
+	.section__dish:hover .section__dish__title,  .section__dish:hover .section__dish__subtitle, .section__dish:hover .section__dish__prize {
+		color: var(--color-default-primary);
 	}
 
 	/* color switch */
