@@ -28,13 +28,14 @@ Information about the concept can be found at [week 1, concept 3: puzzle](https:
 - [x] Setup huge grid   
   - [x] Set grid areas right (start with "empty" page, scroll sections in)   
 - [x] Add dishes   
-- [ ] Animate blocks   
-- [ ] Illustrate allergy labels (full colour)   
+- [x] Colors depending on the weather   
+  - [x] Sunny day   
+  - [x] Rainy day   
+  - [x] Cloudy day   
+  - [x] Stormy day
+- [ ] Illustrate allergy labels (full color)   
   - [ ] Show on :hover   
-- [ ] Colours depending on the weather   
-  - [ ] Sunny day   
-  - [ ] Rainy day   
-  - [ ] Cloudy day   
+- [ ] Animations depending on the weather   
 
 ## Resources
 - [CSS-Tricks: Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)   
