@@ -67,6 +67,8 @@ More information about my concepts can be found [here](https://github.com/maybuz
 - [BEM documentation](http://getbem.com/)   
 - [Getting your head around BEM syntax](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)   
 - [Menu example](https://ambiance.vagebond.nl/html/template/grill/)   
+- [Border example](https://codepen.io/rpsthecoder/pen/yYVmze/)   
+- [Easings.net](https://easings.net/nl)   
 
 ## License
 [MIT](LICENSE) © [Luna May Johansson](https://github.com/maybuzz)
