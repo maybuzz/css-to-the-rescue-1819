@@ -23,7 +23,14 @@ Check out the...
 - [x] The different animations and transitions (`focus`-state, `hover`-states, blinking borders etc.)   
 
 ## Install
+This project has no dependencies. It is created in `HTML` and `CSS` only.
 
+To install this project you should fork this repo and clone it. Start a `live-server` to open it in your browser.
+
+```bash
+  # open your terminal and add this to clone the repo
+  git clone https://github.com/maybuzz/css-to-the-rescue-1819.git
+```
 
 ## Assignment
 Create a responsive restaurant menu using only **two colours** (restriction 1) and a **design that responds to weather** (restriction 2). I'm going to write my CSS using the **BEM** methodology.   
